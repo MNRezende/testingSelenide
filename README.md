@@ -11,10 +11,10 @@ https://docs.docker.com/docker-for-windows/install/
 
 ## Baixar as imagens no docker
 
-sudo docker pull postgres
-sudo docker pull dpage/pgadmin4
-sudo docker pull qaninja/ninjaplus-api
-sudo docker pull qaninja/ninjaplus-web
+docker pull postgres,
+docker pull dpage/pgadmin4,
+docker pull qaninja/ninjaplus-api,
+docker pull qaninja/ninjaplus-web
 
 ### Criar a rede  Docker
 
@@ -39,8 +39,8 @@ sudo docker run --name ninjaplus-web --network=netinghWorking -e "VUE_APP_API=ht
 ### Importante:
 ### Quando você reiniciar o seu computador, certifique-se que o Docker esteja online e suba containers novamente:
 
-sudo docker start pgdb
-sudo docker start pgadmin
-sudo docker start ninjaplus-api
+sudo docker start pgdb,
+sudo docker start pgadmin,
+sudo docker start ninjaplus-api,
 sudo docker start ninjaplus-web
 
