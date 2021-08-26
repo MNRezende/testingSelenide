@@ -29,7 +29,7 @@ public class MovieModel {
         String target;
 
         if (os.contains("Windows")) {
-            target = executionPath + "\\src\\maain\\resources\\cover\\";
+            target = executionPath + "\\src\\main\\resources\\cover\\";
         }else {
             target = executionPath + "/src/main/resources/cover/";
         }
